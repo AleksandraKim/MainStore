@@ -1,0 +1,490 @@
+@keyframes anim1{
+	from{
+		border-radius: 0%;
+	}to{
+		border-radius: 50%;
+	}
+}
+@keyframes anim{
+	from{
+		border-radius: 50%;
+	}to{
+		border-radius: 0%;
+	}
+}
+
+#MainHome{
+	width:100%;
+    height:1000px;
+    background-size:contain; 
+}
+
+.li{ 
+	text-align: left;
+	font-style: normal;
+}
+
+.button{
+	background-color: rgb(93, 212, 226);
+	border-radius: 50%;
+	padding: 2px 7px;
+}
+
+.headVhod{
+	position: absolute;
+	animation:anim1 2s 1 forwards;
+	border:3px solid rgb(151, 164, 147);
+	padding:40px;
+	width:400px;
+	margin:120px 700px;
+	background-color: rgba(31, 72, 72, 0.21);
+	
+}
+
+.divVhod {
+	
+	animation:anim 2s 1 forwards;
+	font-style:oblique;
+	font-size: medium;
+	border:3px solid rgb(151, 164, 147);
+	text-align: center;
+	padding:60px;
+	border-radius: 50%;
+	height: 200px;
+}
+.headRegist{
+	position: absolute;
+	border:3px solid black;
+	padding:40px;
+	width:400px;
+	margin:120px 700px;
+	background-color: rgba(40, 64, 64, 0.768);
+	
+}
+.headRegist h2{
+	text-align:center;
+	margin-bottom:50px;
+	font-style:oblique;
+}
+#OknoRegist{
+	position: relative;
+}
+
+.divRegist {
+	
+
+	font-style:oblique;
+	font-size: medium;
+	border:3px solid black;
+	text-align: center;
+	padding:60px;
+	border-radius: 50%;
+	height: 200px;
+}
+.loginVhod{
+	background-color:rgb(255, 255, 255);
+	margin-top: 0px;
+	margin-left: 10px;
+}
+.passwordVhod{
+	background-color:rgb(255, 255, 255);
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.RegisStr{
+	position: absolute;
+	left:110px;
+	margin-top:0px;
+}
+.button1{
+	border-radius: 30px;
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid rgb(213, 189, 189);
+	margin-left:20px;
+    margin-top:10px;
+	
+}
+.button2{
+	border-radius: 30px;
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid black;
+	margin-left:180px;
+    margin-top:50px;
+	
+}
+.button1:hover{
+	border: 2px solid white;
+}
+#headerMain {
+	box-sizing: border-box;
+	border:3px solid rgb(175, 188, 171);
+	background-color: rgba(240, 255, 255, 0.387);
+	display: flex;
+	padding: 20px;
+	height: 125px;
+	width: 1897px;
+		
+}
+#Name{
+	font-size: 33px;
+	margin-left: 700px;
+	font-family:Moscow Metro Regular;
+
+}
+
+#headerMain #Enter{
+	background-color: rgba(37, 83, 76, 0.889);
+	font: 15px Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+	border-radius: 80%;
+	margin-top:0px;
+	padding: 25px 30px 0px 30px;
+	border:3px solid rgb(175, 188, 171);
+	color: rgb(255, 255, 255);
+}
+#headerMain #Enter:hover{
+	background-color: #1d6068;
+
+}
+.closeVhod{
+	box-sizing: border-box;
+	margin-left: 400px;
+	margin-top: 0px;
+	border-radius: 20px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid black;
+	padding: 6px 12px;
+	
+}
+.closeVhod:hover{
+	color: #cddcde;
+	border: 2px solid white;
+	
+}
+.closeRegist{
+	box-sizing: border-box;
+	margin-left: 350px;
+	border-radius: 30px;
+	padding: 10px 15px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid black;
+}
+.closeRegist:hover{
+	color: #cddcde;
+	border: 2px solid white;
+	
+}
+#body{
+	position: absolute;
+	
+}
+#logot{
+	margin-left:880px;
+	box-shadow: 5px 5px 3px black;
+	border:3px solid rgb(175, 188, 171);
+    
+}
+
+#id{
+	background-color: bisque;
+	width: 100%;
+	height: 100%;
+}
+#menu{
+	background-color: rgba(228, 237, 237, 0.236);
+	height:750px;
+	width: 524px;
+    margin-left: 1333px;
+    margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+#menu a{
+	text-align: left;
+	width: 400px;
+	border:3px solid #13343800;
+	box-sizing: border-box;
+	margin-top: 100px;
+	margin-left: 65px;
+	padding: 15px 10px 30px 10px;
+	height:20px;
+	font: 15px Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	background-color: #133438;
+}
+#menu a:hover, #glavniy a.active {
+	color: rgb(255, 255, 255);
+	background-color: #1d6068;
+	transform: scale(1.1);
+}
+
+#footerMain{
+	display: flex;
+	flex-direction: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	background-color: rgba(240, 255, 255, 0);
+	height: 130px;
+	border:3px solid black;
+	font: 15px Georgia, 'Times New Roman', Times, serif;
+}
+.location{
+	margin:35px 0px 15px 200px;
+}
+.locationAdress{
+	margin-left:190px;
+}
+.social{
+	margin:25px 200px 15px 0px;
+}
+
+.icons{
+	padding-left: 20px;
+}
+.text{
+	font: 20px Georgia, 'Times New Roman', Times, serif;
+	position: absolute;
+    margin: 80px 250px;
+	background-color: rgba(34, 78, 76, 0.6);
+	width: 800px;
+	height: 500px;
+	padding: 50px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+.closeInfo{
+	margin-left: 770px;
+	margin-top: 0px;
+	padding: 7px 12px;
+	border-radius: 50px;
+	background-color: aliceblue;
+	color: black;
+	border: nonek;
+}
+.closeInfo:hover{
+	border: 1px solid white;
+}
+#logoContact{
+	margin-left:1712px;
+	width:70px;
+	height:70px
+}
+@media(max-width:414px){
+	#AppHome{
+		height: 100vh;
+		width: 100vw;
+	}
+	#MainHome{
+		height: 100vh;
+		width: 100vw;
+		background-size: cover;
+	}
+	#menu{
+		margin-left:0px;
+		height: 0px;
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		
+
+	}
+	#menu a{
+		margin-left:0px;
+		width:90px;
+		margin-top: 0px;
+		height: 20px;
+		font-size: 10px;
+		padding: 5px 0px 20px 5px;
+		background-color: #1d616836;
+		border: none;
+		
+	}
+	#headerMain{
+		width: 100vw;
+		height: 90px;
+	   border: 1px solid black;
+	}
+	#headerMain h1{
+	margin-top: 30px;
+	  
+	}
+	#logot{
+		width: 0px;
+	}
+	#headerMain #Enter{
+		padding: 24px 18px 0px 18px;
+		border: none;
+		background-color: none;
+	}
+	#footerMain{
+	    height: 220px;
+		width: 414px;
+		display: flex;
+		flex-direction: column;
+		background-color: #b5a860;
+		border: 1px solid black;
+		
+	}
+	.location{
+		margin-top: 45px;
+		margin-left: 120px;
+	}
+	.locationAdress{
+		margin-left:110px;
+	}
+	.social{
+		margin-top: 0px;
+		margin-left:130px;
+		display: flex;
+	}
+	.text{
+		font-size: 12px;
+		margin-left: 10px;
+		width: 300px;
+		height: 300px;
+		margin-top: 140px;
+		padding-top:0px;
+		overflow: auto;
+		line-height: 20px;
+		background-color: #172b2d;
+	}
+	.closeInfo{
+		margin-left: 285px;
+		margin-top: 10px;
+	}
+	#Name{
+		margin-left: 125px;
+		margin-top: 10px;
+		font-size: 20px;
+	}
+	.headVhod{
+		position: absolute;
+		animation:anim1 2s 1 forwards;
+		border:none;
+		padding:40px;
+		width:0px;
+		height: 0px;
+		margin:50px 70px;
+		background-color: rgba(45, 138, 138, 0);
+		
+	}
+	.divVhod {
+	
+	animation:anim 2s 1 forwards;
+	font-style:oblique;
+	font-size: medium;
+	border:none;
+	text-align: center;
+	padding:0px;
+	margin:20px 0px;
+	border-radius: 0%;
+	height: 40px;
+	width: 200px;
+	margin-top: 0px;
+}
+.loginVhod{
+	background-color:rgb(255, 255, 255);
+	margin-top: 0px;
+	margin-left: 10px;
+}
+.headRegist{
+	position: absolute;
+	border:1px solid black;
+	padding:0px 40px;
+	width:200px;
+	height: 300px;
+	margin:120px 70px;
+	background-color: rgba(240, 255, 255, 0.305);
+	
+}
+.headRegist h2{
+	text-align:center;
+	margin-top:0px;
+	font-size: 20px;
+	font-style:oblique;
+	
+}
+.button1{
+	border-radius: 30px;
+	padding: 0px 5px;
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid black;
+	margin-left:0px;
+    margin-top:10px;
+	
+}
+.button2{
+	border-radius: 30px;
+	padding: 0px 5px;
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid rgb(216, 196, 196);
+	margin-left:90px;
+    margin-top:20px;
+	
+}
+
+.RegisStr{
+	position: absolute;
+	left:70px;
+	width: 130px;
+	margin-top:0px;
+}
+.closeRegist{
+	box-sizing: border-box;
+	margin-left: 210px;
+	border-radius: 30px;
+	padding: 0px 7px;
+	background-color: rgba(240, 248, 255, 0);
+	color: rgb(247, 247, 247);
+	border: 0px solid black;
+}
+.closeRegist:hover{
+	color: #cddcde;
+	border: 2px solid white;
+	
+}
+.closeVhod{
+	box-sizing: border-box;
+	margin-left: 200px;
+	margin-top: 0px;
+	border-radius: 20px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid black;
+	padding: 0px 6px;
+	
+}
+#logoContact{
+	margin-left:310px;
+	margin-top: 10px;
+	width:60px;
+	height:60px
+}
+#headerMain {
+	box-sizing: border-box;
+	border:3px solid rgb(175, 188, 171);
+	background-color: rgba(240, 255, 255, 0.387);
+	display: flex;
+	padding: 20px;
+	height: 125px;
+	width: 100vw;
+		
+}
+}

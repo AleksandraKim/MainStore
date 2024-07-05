@@ -1,0 +1,243 @@
+
+#screen{
+    display: block;
+    margin-top: 170px;
+}
+#kartochki{
+    background-color: rgba(19, 45, 69, 0.301);
+    display:flex;
+    height: 780px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 35px 35px 35px 35px;
+   
+
+}
+
+
+#kartochki img{
+  width: 570px;
+  height: 400px;
+  margin:200px;
+  border:3px solid rgb(225, 214, 214);
+}
+#kartichki a{
+    margin: 20px 20px 20px 0px; 
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+}
+#dobav{
+    margin: 50px 0px 20px 0px; 
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+    border:1px solid black;
+
+}
+#dobavIzb{
+    margin: 20px;
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 90px;
+    padding: 10px 15px;
+    border:1px solid black;
+}
+#opisanie h1{
+    display: block;
+    margin-top:150px;
+}
+#opisanie p{
+    text-align: justify;
+    width:650px;
+}
+#otziv0{
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px 0px 0px 20px;
+   
+}
+#name{
+    display: flex;
+    }
+#name #photo{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 15px 0px 15px 15px;
+}
+
+#name p{
+    margin-top: 23px;
+    margin-left: 0px;
+}
+#otziv0 p{
+    margin-left:20px ;
+}
+#allOtziv0,#allOtziv1{
+    display: flex;
+}
+#allOtziv0 #Vpered{
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid rgb(221, 210, 210);
+}
+#allOtziv #Nazad{
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid rgb(207, 197, 197);
+}
+#otziv1{
+    border: 2px solid rgb(189, 174, 174);
+    width: 400px;
+    height: 200px;
+   
+   
+}
+#allOtziv1 #Vpered{
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid rgb(187, 173, 173);
+}
+#allOtziv1 #Nazad{
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid rgb(200, 187, 187);
+}
+#logo{
+    width:70px;
+    height: 70px;
+    border: 3px solid rgba(197, 193, 123, 0.622);
+}
+@media(max-width:414px){
+    #kartochki{
+        background-color: rgba(19, 45, 69, 0.301);
+        display:flex;
+        height: 180px;
+        width: 390px;
+        border: 1px solid rgb(160, 149, 149);
+        margin: 10px 10px;
+       
+    }
+    #kartochki img{
+        width: 170px;
+        height: 100px;
+        margin:20px;
+        border:3px solid rgb(194, 186, 186);
+      }
+      #kartichki a{
+          margin: 20px 20px 20px 0px; 
+          background-color:rgba(0, 0, 0, 0.6);
+          border-radius: 20px;
+          padding: 10px;
+          font-size: 20px;
+         
+      }
+      #opisanie{
+        overflow: auto;
+      }
+      #opisanie h2{
+        display: block;
+        margin-top:10px;
+        font-size: 10px;
+    }
+      #opisanie h3{
+        display: block;
+        margin-top:10px;
+        font-size:8px;
+    }
+    #opisanie p{
+        text-align: justify;
+        width:160px;
+        font-size: 8px;
+        overflow: auto;
+    }
+    #otziv0{
+        border: 2px solid black;
+        width: 140px;
+        height: 80px;
+        border-radius: 20px 0px 0px 20px;
+       
+    }
+    #name{
+        display: flex;
+        }
+    #name #photo{
+        width: 16px;
+        height: 10px;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin: 15px 0px 15px 15px;
+    }
+    
+    #name p{
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+    #otziv0 p{
+        margin-left:20px ;
+    }
+    #allOtziv0,#allOtziv1{
+        display: flex;
+    }
+    #allOtziv0 #Vpered{
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 0px 20px 20px 0px;
+        width: 50px;
+        font-size: 3px;
+        border: 2px solid rgb(221, 210, 210);
+    }
+    #allOtziv #Nazad{
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 20px 0px 0px 20px;
+        min-width: 160px;
+        font-size: 3px;
+        border: 2px solid rgb(207, 197, 197);
+    }
+    #otziv1{
+        border: 2px solid rgb(189, 174, 174);
+        width: 140px;
+        height: 80px;
+       
+       
+    }
+    #allOtziv1{
+        width: 220px;
+    }
+    #allOtziv1 #Vpered{
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 0px 20px 20px 0px;
+        border: 2px solid rgb(187, 173, 173);
+        width: 50px;
+        font-size: 3px;
+    }
+    #allOtziv1 #Nazad{
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 20px 0px 0px 20px;
+        width: 50px;
+        height: 84px;
+        font-size: 2px;
+        border: 2px solid rgb(200, 187, 187);
+    }
+    #dobav{
+        margin: 0px 0px 10px 0px; 
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        padding: 10px;
+        border:1px solid rgb(225, 217, 217);
+        width: 80px;
+        height: 30px;
+        font-size: 6px;
+    
+    }
+    #dobavIzb{
+        margin: 20px;
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 90px;
+        padding: 10px 5px;
+        border:1px solid rgb(236, 229, 229);
+        width: 30px;
+        height: 30px;
+        font-size: 6px;
+    }
+}

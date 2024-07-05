@@ -1,0 +1,23 @@
+#screen{
+    width: 102%;
+  
+}
+
+#kartochki{
+   
+    margin-top: 20px;
+    margin-bottom: 100px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.458)
+}
+#kartochki img{
+    
+    width: 700px;
+    height: 500px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.458)
+}
+#opisanie{
+    margin-top: 50px;
+}
+#dobav{
+    border: 1px solid black;
+}
