@@ -9,14 +9,13 @@ import { MyContext } from '../../Catalog'
 
 
 
-
 export default function Mebel(){
 let {kor,izb}=React.useContext(MyContext)
 let[korz,setKorz]=useState(JSON.parse(localStorage.getItem('korzina')))
 let[izbr,setIzbr]=useState(JSON.parse(localStorage.getItem('izbran')))
 
-   let res=arr.map((elem,index)=>{
-    return <div key={index} id='kartochki'>
+   let res=arr.map(elem=>{
+    return <div key={elem.id} id='kartochki'>
                  <img id='kartImg' src={elem.src}></img>
               <div id='opisanie'> 
                  <h2>{elem.name}</h2>
@@ -29,13 +28,13 @@ let[izbr,setIzbr]=useState(JSON.parse(localStorage.getItem('izbran')))
                     <Otziv/>
                     <button id='dobav' 
                         onClick={()=>{
-                           if(korz===null && localStorage.getItem('korzina')===null){
+                           if(korz===null){
                                localStorage.setItem('korzina', JSON.stringify([]))
                                elem.checked=true
                                kor.push(elem)
                                localStorage.setItem('korzina', JSON.stringify(kor))
                                      }
-                           else if(localStorage.getItem('korzina')!==null && elem.checked===false){
+                           else if(localStorage.getItem('korzina')!==null && korz.includes(elem)===false){
                                     elem.checked=true
                                     kor.push(elem)
                                     localStorage.setItem('korzina', JSON.stringify(kor))

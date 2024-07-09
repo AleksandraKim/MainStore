@@ -12,7 +12,6 @@ export default function Menu({text,elem,elem1,setInfo}){
                  <Link to='/Catalog'>КАТАЛОГ</Link>
                  <Link to='/Akcii'>АКЦИИ</Link>
                  <Link to='/Contacts'>КОНТАКТЫ</Link>
-                
                </div>
              </div>
 }

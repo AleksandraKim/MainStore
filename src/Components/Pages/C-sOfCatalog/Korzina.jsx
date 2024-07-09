@@ -5,14 +5,17 @@ import Korzina from '../../images/Это магазинный сайт.jpg'
 import { useState } from 'react'
 
 
-
-
-
 export default function Massiv(){
-  let[korz,setKorz]=useState(JSON.parse(localStorage.getItem('korzina')))
   let[izbr,setIzbr]=useState(JSON.parse(localStorage.getItem('izbran')))
+  let[korz,setKorz]=useState(JSON.parse(localStorage.getItem('korzina')))
   let res;
   let sum=0;
+ 
+ if(korz===null){
+  localStorage.setItem('korzina', JSON.stringify([]))
+ } else if(korz!==null && izbr===null){
+  localStorage.setItem('izbran', JSON.stringify([]))
+ }
 
   function Ubavit(id){
     setKorz(korz.map(item=>{
@@ -40,48 +43,44 @@ export default function Massiv(){
     }))
   }
 
- 
 
 
 
 
-  
-  if (korz===null){
-    res=<img id='itogKorz' src={Korzina}></img>
-  }
-  else {
-    res=korz.map((elem,index)=>{
-    return <><li key={index} id='vkor'>
-             <img src={elem.src}></img>
-             <span id='name'>{elem.name}</span>
-             <button id='Ubavit' onClick={()=>Ubavit(elem.id)}>-</button>
-             <span id='position' >{elem.position} <span> шт.</span></span>
-             <button id='Pribavit' onClick={()=>Pribavit(elem.id)}>+</button>
-             <span id='price'>{elem.totalPrice}р</span>
-             <button id='vkorDobav' onClick={()=>{setIzbr([...izbr,{...elem}])
-                                                  setKorz(korz.filter(item=>item.id!==elem.id))}}
-                                                  >☆</button>
-             <button id='vkorUdal' onClick={()=>setKorz(korz.filter(item=>item.id!==elem.id))}>
-             <span id='udal'>Удалить</span></button></li></> 
-                                })}
+ if (!korz.length){
+      res=<img id='itogKorz' src={Korzina}></img>
+    }else {
+      res=korz.map(elem=>{
+        return <><li key={elem.id} id='vkor'>
+                     <img src={elem.src}></img>
+                     <span id='name'>{elem.name}</span>
+                     <button id='Ubavit' onClick={()=>Ubavit(elem.id)}>-</button>
+                     <span id='position'>{elem.position} <span> шт.</span></span>
+                     <button id='Pribavit' onClick={()=>Pribavit(elem.id)}>+</button>
+                     <span id='price'>{elem.totalPrice}р</span>
+                     <button id='vkorDobav' onClick={()=>{setIzbr([...izbr,{...elem}])
+                                                      setKorz(korz.filter(item=>item.id!==elem.id))
+                                                    }}
+                                                      >☆</button>
+                     <button id='vkorUdal' onClick={()=>setKorz(korz.filter(item=>item.id!==elem.id))
 
-localStorage.setItem('izbran', JSON.stringify(izbr));
+                     }>
+                     <span id='udal'>Удалить</span></button></li></> 
+                                    })}
+
 localStorage.setItem('korzina', JSON.stringify(korz))
 
-
-
+if(izbr!==null){
+  localStorage.setItem('izbran', JSON.stringify(izbr))
+              }
+   
  
 for(let elem of korz){
-  sum+=Number(elem.totalPrice)
-  
-}
+       sum+=Number(elem.totalPrice) 
+                  }
 
 
-
-
-
-
-    return ( <div id='MainKorz'>
+return ( <div id='MainKorz'>
                 <HeadCat/>
                 <div style={{display:'flex'}}>
                     <div id='mebel'>
@@ -95,6 +94,6 @@ for(let elem of korz){
                 <p>Доставка:<span>Бесплатно</span></p>
                 </div>
                 <button id='pokupka'>Купить</button><FootCat/>
-             </div>);
+          </div>);
 }
  

@@ -268,6 +268,10 @@ input{
   position: relative;
  
 }
+#MainIzbran{
+  width:1897px;
+}
+
 #vkor input{
   margin-bottom: 60px;
   margin-left: 40px;
@@ -452,13 +456,12 @@ position: absolute;
     font-style: normal;
   }
   #headerCat{
-    width: 100vw;
+    width:414px;
     display: flex;
     flex-direction:row;
     box-sizing: border-box;
     border:3px solid rgb(255, 255, 252);
     background-color: rgba(255, 255, 255, 0.75);
-    margin-left: 0px;
   }
   
   #izbran{
@@ -516,13 +519,24 @@ position: absolute;
     width:414px;
   }
   #vkor{
+    width:414px;
     display:flex;
     border: 1px solid black;
     margin: 0px;
-    width: 304px;
+    width: 265px;
     height: 230px;
     position: relative;
    
+  }
+  #MainIzbran{
+    width:414px;
+  }
+  #mebel{
+    width:414px;
+    
+  }
+  #allKor{
+    width:414px;
   }
   #vkor input{
     margin-bottom: 60px;
@@ -554,7 +568,7 @@ position: absolute;
     margin-top: 125px;
     display: flex;
     position: absolute;
-    left: 140px;
+    left: 120px;
   }
   #button{
     height: 10px;
@@ -569,8 +583,8 @@ position: absolute;
   
   #vkorDobav{
     text-align: center;
-    min-width: 160px;
-    max-width: 220px;
+    min-width: 133px;
+    max-width: 133px;
     left: 0px;
     top: 185px;
     height: 20%;
@@ -579,13 +593,13 @@ position: absolute;
     position: absolute;
   }
   #vkorUdal{
-    min-width: 144px;
-    max-width: 220px;
+    min-width: 133px;
+    max-width: 133px;
     justify-content: flex-end;
     border: none;
     border-radius: 0cap;
     position: absolute;
-    left: 160px;
+    left: 133px;
     top: 185px;
     height: 20%;
     border: 1px solid black;
@@ -600,19 +614,18 @@ position: absolute;
   }
   
   #allKor{
-    width: 1800px;
+    width: 414px;
     height: 770px;
-    overflow: auto;
-    
+    overflow: auto;   
   }
   #itog,#itogDost{
     display:block;
   }
   #itog span{
-    margin-left: 1700px;
+    margin-left: 400px;
   }
   #itogDost span{
-    margin-left: 1650px;
+    margin-left: 420px;
   }
   #pokupka{
     width: 100%;
@@ -623,15 +636,15 @@ position: absolute;
     background-color: rgb(219, 210, 210);
   }
   #itogKorz{
-    border-radius: 1000px;
-    width: 500px;
-    margin-left: 650px;
+    border-radius: 100px;
+    width: 200px;
+    margin-left: 45px;
     margin-top: 150px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.458);
   }
   #Ubavit{
-    left: 90px;
-     top: 115px;
+    left: 60px;
+    top: 115px;
     position: absolute;
     border-radius: 60px;
     background-color: none;
@@ -639,7 +652,7 @@ position: absolute;
     border: 1px solid black;
   }
   #Pribavit{
-    left: 178px;
+    left: 165px;
      top: 115px;
     position: absolute;
     border-radius: 60px;
@@ -651,10 +664,10 @@ position: absolute;
     display:block;
   }
   #itog span{
-    margin-left: 290px;
+    margin-left: 310px;
   }
   #itogDost span{
-    margin-left: 240px;
+    margin-left: 280px;
   }
   #ContactsBody{
     display: block;

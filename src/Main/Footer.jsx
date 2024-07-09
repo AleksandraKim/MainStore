@@ -10,7 +10,7 @@ export default function Footer(){
                    <p className='location'>МЕСТОПОЛОЖЕНИЕ</p>
                    <p className='locationAdress' > 40005, ул.Пражская, 16а</p>
                 </div>
-               <div class='social'>
+               <div className='social'>
                    <p>СОЦИАЛЬНЫЕ СЕТИ</p>
                      <p><a href='#' className='icons'><img src={Vk} width='20px'/></a>
                         <a href='#' className='icons'><img src={Inst} width='20px'/></a>

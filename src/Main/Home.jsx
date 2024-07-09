@@ -61,8 +61,8 @@ export default function Home() {
     }
 
     if(regist){
-     elem1=<div class='headRegist'>
-             <a class='closeRegist' onClick={()=>setRegist(false)}>x</a>
+     elem1=<div className='headRegist'>
+             <a className='closeRegist' onClick={()=>setRegist(false)}>x</a>
              <h2>Регистрация</h2>
             <Registr login={login} 
                      setLogin={setLogin} 	
