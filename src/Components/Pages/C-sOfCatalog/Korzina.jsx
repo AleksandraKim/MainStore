@@ -67,7 +67,7 @@ export default function Massiv(){
                      }>
                      <span id='udal'>Удалить</span></button></li></> 
                                     })}
-if(izbr!==null){
+if(korz!==null){
 localStorage.setItem('korzina', JSON.stringify(korz))
     }
 if(izbr!==null){
