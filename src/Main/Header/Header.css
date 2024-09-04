@@ -1,0 +1,74 @@
+#headerMain {
+	position: relative;
+	box-sizing: border-box;
+	border:3px solid #ffffff;;
+	background-color: rgba(240, 255, 255, 0.387);
+	display: flex;
+	padding: 20px;
+	height: 125px;
+	width: 100vw;
+		
+}
+#Name{
+	color: #ffffff;
+	font-size: 33px;
+	right: 50vw;
+	font-family:Moscow Metro Regular;
+    position: absolute;
+}
+
+#headerMain #Enter{
+	background-color: rgba(37, 83, 76, 0.889);
+	font: 15px Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+	border-radius: 80%;
+	margin-top:0px;
+	padding: 25px 30px 0px 30px;
+	border:3px solid rgb(175, 188, 171);
+	color: #ffffff;
+}
+#headerMain #Enter:hover{
+	background-color: #1d6068;
+
+}
+#logot{
+	position: absolute;
+	right: 98px;
+	box-shadow: 5px 5px 3px black;
+	border:3px solid rgb(175, 188, 171);
+    
+}
+@media(max-width:700px){
+    #headerMain h1{
+	margin-top: 30px;
+	}
+	#headerMain #Enter{
+		padding: 24px 18px 0px 18px;
+		border: none;
+		background-color: none;
+	}
+    #headerMain {
+        box-sizing: border-box;
+        border:3px solid rgb(175, 188, 171);
+        background-color: rgba(240, 255, 255, 0.387);
+        display: flex;
+        padding: 20px;
+        height: 125px;
+        width: 100vw;
+            
+    }
+    #logot{
+        margin-left:0px;
+        box-shadow: 5px 5px 3px black;
+        border:0px solid rgb(175, 188, 171);
+        width: 0px;
+        height: 0px;
+        
+    }
+	#Name{
+		
+		margin-top: 10px;
+		font-size: 20px;
+		right: 45vw;
+	}
+}

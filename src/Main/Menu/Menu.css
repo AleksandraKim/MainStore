@@ -1,0 +1,58 @@
+#menu{
+	color: #ffffff;
+	position: absolute;
+	background-color: rgba(228, 237, 237, 0.236);
+	height: 70vh;
+	width: 27vw;
+    right: 55px;
+    margin-top: 50px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+#menu a{
+	text-align: left;
+	width: 21vw;
+	border:3px solid #13343800;
+	box-sizing: border-box;
+	margin-top: 10vh;
+	margin-left: 3vw;
+	padding: 15px 10px 30px 10px;
+	height:1vw;
+	font: 15px Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	background-color: #133438;
+}
+#menu a:hover, #glavniy a.active {
+	color: rgb(255, 255, 255);
+	background-color: #1d6068;
+	transform: scale(1.1);
+}
+@media(max-width:700px){
+	#menu{
+		width: 10vw;
+		color: #ffffff;
+		right:0px;
+		height: 0px;
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		position: relative;
+
+	}
+	#menu a{
+		margin-left:0px;
+		width:90px;
+		margin-top: 0px;
+		height: 80px;
+		font-size: 10px;
+		padding: 5px 0px 5px 5px;
+		background-color: #1d616836;
+		border: none;
+		
+	}
+
+}

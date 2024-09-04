@@ -1,0 +1,16 @@
+#catalog{
+    background-color: rgb(78, 107, 105);
+    width: 100%;
+    margin-top: 0px;
+  }
+@media(max-width:700px){
+    #catalog{
+        background-color: rgba(57, 101, 114, 0.537);
+        width: 100vw;
+        margin-top: 0px;
+      }
+     
+  }
+  
+  
+    

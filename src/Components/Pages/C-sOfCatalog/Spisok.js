@@ -9,7 +9,7 @@ import Shkaf1 from './imagesFor/Shkaf1.jpg'
 import Shkaf2 from './imagesFor/Shkaf2.jpg'
 import Postel1 from './imagesFor/Postel1.jpg'
 import Postel2 from './imagesFor/Postel2.jpg'
-import Otziv from './Otziv'
+import Otziv from './Otziv/Otziv.jsx'
 import uuid from 'react-uuid';
 
 

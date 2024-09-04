@@ -5,12 +5,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import Korzina from "./Components/Pages/C-sOfCatalog/Korzina.jsx";
-import Izbran from "./Components/Pages/C-sOfCatalog/Izbran.jsx";
-import App from "./Main/App.jsx"
-import Catalog from "./Components/Catalog.jsx";
-import Akcii from "./Components/Akcii.jsx";
-import Contacts from "./Components/Pages/Contacts.jsx";
+import Korzina from "./Components/Pages/C-sOfCatalog/Korzina/Korzina.jsx";
+import Izbran from "./Components/Pages/C-sOfCatalog/Izbran/Izbran.jsx";
+import App from "./Main/App/App.jsx"
+import Catalog from "./Components/Catalog/Catalog.jsx";
+import Akcii from "./Components/Pages/Akcii/Akcii.jsx";
+import Contacts from "./Components/Pages/Contacts/Contacts.jsx";
 
 
 

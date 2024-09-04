@@ -1,0 +1,40 @@
+.loginVhod{
+	margin-bottom: 0px;	
+}
+.passwordVhod{
+	margin-bottom: 15px;
+}
+.button1{
+	border-radius: 30px;
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid rgb(213, 189, 189);
+	margin-left:20px;
+    margin-top:10px;
+	
+}
+.button1:hover{
+	border: 2px solid white;
+}
+@media(max-width:700px){
+.loginVhod{
+	background-color:rgb(255, 255, 255);
+	margin-top: 0px;
+	margin-left: 10px;
+}
+.passwordVhod{
+	background-color:rgb(255, 255, 255);
+}
+.button1{
+	border-radius: 30px;
+	padding: 0px 5px;
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid black;
+	margin-left:0px;
+    margin-top:10px;	
+}
+}

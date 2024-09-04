@@ -1,0 +1,96 @@
+#akcii{
+    width: 100%;
+}
+#akcii img{
+    top: 0px;
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid rgb(150, 102, 102);
+   
+}
+#MainText1{
+   position: absolute;
+   top: 40vh;
+   left: 19vw;
+   font-size: 80px;
+}
+#text1{
+    position: absolute;
+    top: 62vh;
+    left: 19vw;
+    font-size: 30px;
+}
+#MainText2{
+    position: absolute;
+    top: 115vh;
+    left:68vw;
+    font-size: 80px;
+    border:10px solid black;
+    padding: 10px 20px;
+   }
+#text2{
+    position: absolute;
+    top: 140vh;
+    left:68vw;
+    font-size: 30px;
+}
+#MainText3{
+   position: absolute;
+   top: 205vh;
+   left: 19vw;
+   font-size: 60px;
+}
+#text3{
+   position: absolute;
+   top: 219vh;
+   left: 19vw;
+   font-size: 30px;
+}
+@media(max-width:700px){  
+.MainText{
+   position: relative;
+}       
+#akcii img{
+    top: 0px;
+    width: 100vw;
+    height: 200px;
+    border: 1px solid rgb(150, 102, 102);  
+}
+#MainText1{
+   position: absolute;
+   top: 7vh;
+   left: 12vw;
+   font-size: 18px;
+}
+#text1{
+    position: absolute;
+    top: 11vh;
+    left: 12vw;
+    font-size: 15px;
+}
+#MainText2{
+   position: absolute;
+   top: 4vh;
+   left:47vw;
+   font-size: 18px;
+   border:10px solid black;
+   padding: 10px 20px;
+}
+#text2{
+   position: absolute;
+   top: 13vh;
+   left:47vw;
+   font-size: 15px;
+}
+#MainText3{
+   position: absolute;
+   top: 7vh;
+   left: 12vw;
+   font-size: 18px;
+}
+#text3{
+   position: absolute;
+   top: 11vh;
+   left: 12vw;
+   font-size: 15px;
+}}

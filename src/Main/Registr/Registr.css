@@ -1,0 +1,34 @@
+.RegisStr{
+	position: absolute;
+	left:110px;
+	margin-top:0px;
+}
+.button2{
+	border-radius: 30px;
+	padding: 10px 15px;
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid black;
+	margin-left:180px;
+    margin-top:50px;
+	
+}
+@media(max-width:700px){
+.button2{
+	border-radius: 30px;
+	padding: 0px 5px;
+	margin: 10px;
+	background-color: aliceblue;
+	color: black;
+	border: 2px solid rgb(216, 196, 196);
+	margin-left:90px;
+    margin-top:20px;
+	
+}
+.RegisStr{
+	position: absolute;
+	left:35px;
+	width: 130px;
+	margin-top:0px;
+}}

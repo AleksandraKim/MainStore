@@ -1,0 +1,147 @@
+#screen{
+    display: block;
+    margin-top: 90px;
+}
+#kartochki{
+    background-color: rgba(19, 45, 69, 0.301);
+    display:flex;
+    height: 900px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 35px 35px 35px 35px;
+    padding-bottom: 0px;
+}
+#kartochki img{
+  width: 30vw;
+  height: 400px;
+  margin:160px 5vw 240px 15vw;
+  border:3px solid rgb(225, 214, 214);
+}
+#kartichki a{
+    margin: 20px 20px 20px 0px; 
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 10px;
+}
+#dobav{
+    margin: 40px 0px 0px 0px; 
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 13px 25px;
+    border:0px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);;
+    font-size:10px;
+    font-style:unset;
+
+}
+.dobav{
+    color: rgb(255, 255, 255);
+    font-family: "Crimson Text", serif;
+    font-size: large;
+    font-style: normal;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    margin-top:10px;
+    border-radius:0px 0px 20px 20px;
+  }
+.dobav:hover{
+     border: 1px solid black;
+  }
+#dobavIzb{
+    margin: 40px 0px 0px 20px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 90px;
+    padding: 10px 15px;
+    border:0px solid black;
+    color: #000000;
+}
+#opisanie{
+    margin-top: 50px;
+    position: relative;
+    width: 60vw;
+    overflow: auto;
+}
+#opisanie h1{
+    position: absolute;
+    display: block;
+    margin-top:150px;
+    color: #ffffff;
+}
+#opisanie p{
+    overflow: auto;
+    text-align: justify;
+    width:60%;
+    color: #ffffff;
+}
+
+
+
+@media(max-width:700px){
+    #kartochki{
+        background-color: rgba(19, 45, 69, 0.301);
+        display:block;
+        height: 900px;
+        width: 94vw;
+        border: 1px solid rgb(160, 149, 149);
+        margin: 10px 10px; 
+    }
+    #kartochki img{
+        width: 82vw;
+        height: 200px;
+        margin:20px;
+        border:3px solid rgb(194, 186, 186);
+      }
+    #kartichki a{
+        margin: 0px 20px 20px 0px; 
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 30px;
+      }
+    #opisanie{
+        margin-top: 10px;
+        margin-left: 30px;
+        color: #ffffff;
+        overflow: hidden;
+        width: 78vw;
+      }
+    #opisanie h2{
+        color: #ffffff;
+        display: block;
+        margin-top:10px;
+        font-size: 20px;
+    }
+    #opisanie h3{
+        color: #ffffff;
+        display: block;
+        margin-top:35px;
+        font-size:15px;
+    }
+    #opisanie p{
+        color: #ffffff;
+        text-align: justify;
+        width:90vw;
+        font-size: 12px;
+        overflow: hidden;
+    }
+    #dobav{
+        margin: 30px 0px 20px 10px; 
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        padding: 10px;
+        border:1px solid rgb(225, 217, 217);
+        width: 120px;
+        height: 40px;
+        font-size: 10px;
+        color: #ffffff;
+    }
+    #dobavIzb{
+        margin-top: 10px;
+        background-color:rgba(0, 0, 0, 0.6);
+        border-radius: 90px;
+        padding: 5px 5px;
+        border:1px solid rgb(236, 229, 229);
+        font-size: 16px;
+        color: #ffffff;
+    }
+}

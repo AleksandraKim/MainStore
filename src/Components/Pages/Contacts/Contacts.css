@@ -1,0 +1,119 @@
+#headerMain {
+	position: relative;
+	box-sizing: border-box;
+	border:3px solid #ffffff;;
+	background-color: rgba(240, 255, 255, 0.387);
+	display: flex;
+	padding: 20px;
+	height: 125px;
+	width: 100vw;
+		
+}
+#headerMain #Enter{
+	background-color: rgba(37, 83, 76, 0.889);
+	font: 15px Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+	border-radius: 80%;
+	margin-top:0px;
+	padding: 25px 30px 0px 30px;
+	border:3px solid rgb(175, 188, 171);
+	color: #ffffff;
+}
+#headerMain #Enter:hover{
+	background-color: #1d6068;
+}
+#ContactsBody{
+  display: flex;
+  position: relative;
+}
+#ContactsBodyText{
+  width: 20vw;
+  height: 40vh;
+  position: absolute;
+  display: block;
+  background-color: rgba(70, 91, 88, 0.6);
+  margin: 15vh 10vw;
+  padding: 10vh 7vw 10vh 7vw;
+}
+#ContactsBodyText h3{
+  font-size:medium;
+}
+#ContactsBodyMap{
+  width: 40vw;
+  height: 50vh;
+  position:absolute;
+  right: 90px;
+  margin-top:120px;
+  border:10px solid black;
+  padding:50px;
+  background-color: rgba(70, 91, 88, 0.6);
+}
+#logoContact{
+	position:absolute;
+	right: 98px;
+	width:70px;
+	height:70px
+}
+
+@media(max-width:414px){
+  #ContactsBodyText{
+    height: 20vh;
+  }
+}
+@media(max-width:700px){
+  #headerMain h1{
+    margin-top: 30px;
+    }
+  #headerMain #Enter{
+    padding: 24px 18px 0px 18px;
+    border: none;
+    background-color: none;
+    }
+  #headerMain {
+    box-sizing: border-box;
+    border:3px solid rgb(175, 188, 171);
+    background-color: rgba(240, 255, 255, 0.387);
+    display: flex;
+    padding: 20px;
+    height: 125px;
+    width: 100vw;
+    }
+  #ContactsBody{
+    display: block;
+    margin-bottom: 0px; 
+  }
+  #ContactsBodyText{
+    border:10px solid rgb(61, 75, 13);
+    display: block;
+    background-color: rgba(70, 91, 88, 0.6);
+    margin: 2vh 2vw;
+    padding: 4vh 15vw;
+    width: 60vw;
+  }
+  #ContactsBodyText h2{
+    font-size: 15px;
+  }
+  #ContactsBodyText h3,p{
+    font-size: 10px;
+  }
+  #ContactsBodyMap{
+    position:absolute;
+    left:13vw;
+    top:45vw;
+    border:10px solid rgb(61, 75, 13);
+    padding:0vh 13vw;
+    width: 40vw;
+    height: 48vh;
+    overflow: auto;
+    margin-bottom: 80px;
+    background-color: rgba(101, 152, 144, 0.6);
+  }
+  #logoContact{
+	  position: absolute;
+	  right:40px;
+	  margin-top: 10px;
+	  width:60px;
+	  height:60px
+  }
+
+}
